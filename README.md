@@ -6,7 +6,7 @@ A new Flutter project.
 
 Esse projeto foi feito usando a IDE Android Studio. A seguir alguns comentários para rodar o projeto:
 
-.É necessário ter instalado na máquina o Python3 para rodar o servidor local que fará as requisições http à API (https://www.python.org/downloads/)
+- É necessário ter instalado na máquina o Python3 para rodar o servidor local que fará as requisições http à API (https://www.python.org/downloads/)
 
 ## Setup do servidor local
 .Excluir a pasta simple-server
