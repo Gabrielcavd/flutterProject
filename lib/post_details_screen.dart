@@ -28,7 +28,7 @@ class PostDetailsScreen extends StatelessWidget {
               padding: const EdgeInsets.only(top: 10.0, bottom: 10.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
-                child: Image.network('http://10.0.2.2:8000${posts.imageUrl}'),
+                child: Image.network('https://postsgabriel.herokuapp.com${posts.imageUrl}'),
               ),
             ),
             Row(

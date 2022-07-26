@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
   //Método responsável por fazer a requisição http à API
   void getPosts() async{
     try {
-      var url = Uri.parse('http://10.0.2.2:8000/api/posts/get-posts');
+      var url = Uri.parse('https://postsgabriel.herokuapp.com/api/posts/get-posts');
       final response = await get(url);
       posts.clear();
 
@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
         }
       });
     } catch(e){
-      print('Ocorreu um erro!');
+      print(e);
     }
   }
 

@@ -32,7 +32,7 @@ class Posts extends StatelessWidget {
         ),
         trailing: const Icon(Icons.arrow_forward_rounded, size: 20.0),
         leading: Image.network(
-          'http://10.0.2.2:8000${post.imageUrl}',
+          'https://postsgabriel.herokuapp.com${post.imageUrl}',
           height: 70,
           width: 70,
         ),
