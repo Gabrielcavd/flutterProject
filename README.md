@@ -11,7 +11,7 @@ Esse projeto foi feito usando a IDE Android Studio. A seguir alguns comentários
 ## Setup do servidor local
 - Excluir a pasta simple-server
 - Clonar o seguinte repositório na pasta do projeto : https://github.com/linkedweb/simple-server (git clone https://github.com/linkedweb/simple-server).
-- Navegue para a pasta recém-criada e rodando o comando: cd simple-server
+- Navegue para a pasta recém-criada rodando o comando: cd simple-server
 - Configure o ambiente virtual rodando: python3 -m venv venv
 - Depois ative o ambiente virtual rodando: source venv/bin/activate (para macOS) ou source venv/Scripts/activate.bat (para windows)
 - Depois instale os pacotes necessários rodando: pip install -r requirements.txt
